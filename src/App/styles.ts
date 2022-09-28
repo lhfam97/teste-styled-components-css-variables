@@ -12,7 +12,7 @@ background-color: ${() => {
 }};
 height:300px;
 width:500px;
-p{
+p  {
   color: var(--text-color);
 }
 `
