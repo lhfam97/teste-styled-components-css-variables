@@ -5,13 +5,14 @@ background-color: ${() => {
   const test = getComputedStyle(document.documentElement).getPropertyValue(
     '--container-color',
   )
-  console.log(test)
   if (test === 'red') {
     return test
   } else return `blue`
 }};
+
 height:300px;
 width:500px;
+
 p  {
   color: var(--text-color);
 }
