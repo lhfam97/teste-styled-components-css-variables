@@ -14,6 +14,8 @@ Exemplo:
 color: var(--<nome-da-variavel>);
 ```
 
+<img alt="Exemplo usando css para pegar CSS variables no styledComponents" src="./src/assets/utilizacao-css.png">
+
 <br />
 
 - Buscando a variável pelo javascript
@@ -25,7 +27,7 @@ Exemplo:
     '--<nome-da-variavel>',
   )
 ```
-
+<img alt="Exemplo usando javascript para pegar as CSS variables no styledComponents" src="./src/assets/utilizacao-javascript.png">
 
 ## Passos para execução do codigo
 
@@ -67,7 +69,9 @@ npm run dev
 ## Pare utilizar as CSS variables em outros projetos
 
 <p>Pare utilizar as CSS variables em outros projetos é necessário a criação de um arquivo css. No caso desse exemplo foi utilizado o arquivo "global.css" </p>
-<p>Em seguida eh necessario importar a estilização do arquivo css no arquivo que inicializa o react para que todas os componentes possam utilizar dessas variáveis </p>
+<p>Em seguida eh necessário importar a estilização do arquivo css no arquivo que inicializa o react para que todas os componentes possam utilizar dessas variáveis </p>
+
+<img alt="Importação do global.css no main.tsx" src="./src/assets/main.png">
 
 # Author
 
